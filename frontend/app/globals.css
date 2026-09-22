@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #081827;
+  --navy-soft: #102235;
+  --gold: #c9a46a;
+  --snow: #f8f6f2;
+  --text: #132238;
+  --border: #e7e2d8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--snow);
+  color: var(--text);
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-jakarta), sans-serif;
+}
+
+button,
+a,
+select,
+input {
+  font-family: inherit;
+}
